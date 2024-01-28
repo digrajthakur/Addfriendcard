@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03032e;
+}
+
+#card {
+    width: 300px;
+    height: 490px;
+    background-color: #fff;
+    border-radius: 6px;
+    justify-content: center;
+    margin-top: 60px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#card img {
+    width: 100%;
+    height: 60%;
+    border-radius: 24px;
+    padding: 12px 20px;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+#h1 {
+    font-size: 1.68rem;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h5 {
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px 30px;
+    color: red;
+}
+
+#card button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: skyblue;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#card #remove{
+    font-weight: bold;
+    background-color: rgb(185, 183, 183);
+    color: black;
+}
